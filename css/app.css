@@ -29,9 +29,11 @@ body {
 
 /* Globales */
 .contenedor {
+  /* forma anterior
   max-width: 120rem;
   width: 90%;
-  /*width: min(90%, 120rem);*/
+  */
+  width: min(90%, 120rem);
   margin: 0 auto;
 }
 
@@ -92,7 +94,7 @@ img {
 .header__texto {
   text-align: center;
   color: var(--blanco);
-  margin-top: 5rem;
+  margin-top: 10rem;
 }
 
 @media (min-width: 768px) {
@@ -110,7 +112,7 @@ img {
 }
 
 .barra {
-    padding-top: 4rem;
+  padding-top: 4rem;
 }
 
 /* Logo */
@@ -127,6 +129,13 @@ img {
 }
 
 /* Navegación */
+.navegacion {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 0.5rem;
+}
+
 @media (min-width: 768px) {
   .navegacion {
     display: flex;
@@ -218,7 +227,7 @@ img {
 
 /* Footer */
 .footer {
-    background-color: var(--negro);
-    padding-bottom: 3rem;
-    margin-top: 4rem;
+  background-color: var(--negro);
+  padding-bottom: 3rem;
+  margin-top: 4rem;
 }
